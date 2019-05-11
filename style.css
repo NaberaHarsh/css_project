@@ -1,0 +1,57 @@
+h1{
+    background-color: aqua;
+    font-family: 'Times New Roman';
+}
+p{
+    color: brown;
+    font-size: 40;
+    background-color: black
+}
+
+#aa{
+    background-color: yellow;
+    font-weight: bold;
+}
+
+.bb{
+color: red;
+font-style: italic;
+background-color: black;
+text-align: center;
+}
+
+.black{
+    background-color:white;
+}
+
+.cc{
+    color: red;
+    font-weight: bold;
+    font-size: 20;
+    list-style: none;
+    padding: 0; 
+}
+
+.dd{
+    border: 2px dashed black;
+    background-color: yellow;
+    padding: 20px;
+    margin: 30px;
+}
+
+.ee{
+    background-image:url(star.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 40px;
+}
+
+.ff{
+    width: 50%;
+}
+
+.ee:hover{
+    background-color: blue;
+    transform: translate(20px);
+    opacity: 0.5;
+}
